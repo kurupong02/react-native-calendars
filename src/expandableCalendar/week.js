@@ -162,7 +162,7 @@ class Week extends Component {
 
     return (
       <View style={this.style.container}>
-        <View style={[this.style.week, this.props.style, {width: commons.screenWidth}]}>{week}</View>
+        <View style={[this.style.week, {width: commons.screenWidth}, this.props.style]}>{week}</View>
       </View>
     );
   }
