@@ -464,7 +464,7 @@ class ExpandableCalendar extends Component {
       <View style={[allowShadow && this.style.containerShadow, style]}>
         <Animated.View 
           ref={e => {this.wrapper = e;}}
-          style={{height: deltaY}} 
+          style={{height: deltaY,maxHeight: 350}} 
           {...this.panResponder.panHandlers}
           onLayout={this.onLayout}
         >
