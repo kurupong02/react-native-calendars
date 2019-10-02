@@ -14,7 +14,7 @@ line : 467
   style={{height: deltaY, maxHeight:350 }} 
 ```
 
-## set Knob
+## set Calendar
 
 /src/calendar-list/style.js
 
